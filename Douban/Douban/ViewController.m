@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     NSLog(@"dfsdfsdfdsfdsf的份儿56456546chang");
+    NSLog(@"这是何远武编写的代码");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
