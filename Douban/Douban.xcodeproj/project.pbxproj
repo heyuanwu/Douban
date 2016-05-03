@@ -7,88 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6264A87B1CD8B0170047266D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6264A87A1CD8B0170047266D /* main.m */; };
-		6264A87E1CD8B0170047266D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6264A87D1CD8B0170047266D /* AppDelegate.m */; };
-		6264A8811CD8B0170047266D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6264A8801CD8B0170047266D /* ViewController.m */; };
-		6264A8841CD8B0170047266D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6264A8821CD8B0170047266D /* Main.storyboard */; };
-		6264A8861CD8B0170047266D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6264A8851CD8B0170047266D /* Assets.xcassets */; };
-		6264A8891CD8B0170047266D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6264A8871CD8B0170047266D /* LaunchScreen.storyboard */; };
+		621132F41CD8DB4B008A302E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621132F31CD8DB4B008A302E /* main.m */; };
+		621132F71CD8DB4B008A302E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621132F61CD8DB4B008A302E /* AppDelegate.m */; };
+		621132FA1CD8DB4B008A302E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621132F91CD8DB4B008A302E /* ViewController.m */; };
+		621132FD1CD8DB4B008A302E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621132FB1CD8DB4B008A302E /* Main.storyboard */; };
+		621132FF1CD8DB4B008A302E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621132FE1CD8DB4B008A302E /* Assets.xcassets */; };
+		621133021CD8DB4B008A302E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621133001CD8DB4B008A302E /* LaunchScreen.storyboard */; };
+		6211330D1CD8DF42008A302E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6211330C1CD8DF42008A302E /* CoreGraphics.framework */; };
+		6211330F1CD8DF50008A302E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6211330E1CD8DF50008A302E /* Foundation.framework */; };
+		621133111CD8DF58008A302E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621133101CD8DF58008A302E /* ImageIO.framework */; };
+		621133131CD8DF63008A302E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621133121CD8DF63008A302E /* MobileCoreServices.framework */; };
+		621133151CD8DF6F008A302E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621133141CD8DF6F008A302E /* Security.framework */; };
+		621133171CD8DF77008A302E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621133161CD8DF77008A302E /* SystemConfiguration.framework */; };
+		621133191CD8DF7E008A302E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621133181CD8DF7E008A302E /* UIKit.framework */; };
+		D8841F855C38C1A9CFBA1026 /* libPods-Douban.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F0B1A6A5146DFA078077F9 /* libPods-Douban.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6264A8761CD8B0170047266D /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6264A87A1CD8B0170047266D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6264A87C1CD8B0170047266D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6264A87D1CD8B0170047266D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6264A87F1CD8B0170047266D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6264A8801CD8B0170047266D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6264A8831CD8B0170047266D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6264A8851CD8B0170047266D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6264A8881CD8B0170047266D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6264A88A1CD8B0170047266D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621132EF1CD8DB4B008A302E /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		621132F31CD8DB4B008A302E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		621132F51CD8DB4B008A302E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		621132F61CD8DB4B008A302E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		621132F81CD8DB4B008A302E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		621132F91CD8DB4B008A302E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		621132FC1CD8DB4B008A302E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		621132FE1CD8DB4B008A302E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621133011CD8DB4B008A302E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		621133031CD8DB4B008A302E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6211330C1CD8DF42008A302E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6211330E1CD8DF50008A302E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		621133101CD8DF58008A302E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		621133121CD8DF63008A302E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		621133141CD8DF6F008A302E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		621133161CD8DF77008A302E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		621133181CD8DF7E008A302E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F4F6B03A079B526C5D3AB8B /* Pods-Douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.release.xcconfig"; sourceTree = "<group>"; };
+		B8F0B1A6A5146DFA078077F9 /* libPods-Douban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A5B00A145102D0B23FA219 /* Pods-Douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6264A8731CD8B0170047266D /* Frameworks */ = {
+		621132EC1CD8DB4B008A302E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621133191CD8DF7E008A302E /* UIKit.framework in Frameworks */,
+				621133171CD8DF77008A302E /* SystemConfiguration.framework in Frameworks */,
+				621133151CD8DF6F008A302E /* Security.framework in Frameworks */,
+				621133131CD8DF63008A302E /* MobileCoreServices.framework in Frameworks */,
+				621133111CD8DF58008A302E /* ImageIO.framework in Frameworks */,
+				6211330F1CD8DF50008A302E /* Foundation.framework in Frameworks */,
+				6211330D1CD8DF42008A302E /* CoreGraphics.framework in Frameworks */,
+				D8841F855C38C1A9CFBA1026 /* libPods-Douban.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6264A86D1CD8B0170047266D = {
+		2A897B89B0CF34E862953298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6264A8781CD8B0170047266D /* Douban */,
-				6264A8771CD8B0170047266D /* Products */,
+				621133181CD8DF7E008A302E /* UIKit.framework */,
+				621133161CD8DF77008A302E /* SystemConfiguration.framework */,
+				621133141CD8DF6F008A302E /* Security.framework */,
+				621133121CD8DF63008A302E /* MobileCoreServices.framework */,
+				621133101CD8DF58008A302E /* ImageIO.framework */,
+				6211330E1CD8DF50008A302E /* Foundation.framework */,
+				6211330C1CD8DF42008A302E /* CoreGraphics.framework */,
+				B8F0B1A6A5146DFA078077F9 /* libPods-Douban.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37D232488DB86DCBE616112A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1A5B00A145102D0B23FA219 /* Pods-Douban.debug.xcconfig */,
+				9F4F6B03A079B526C5D3AB8B /* Pods-Douban.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		621132E61CD8DB4B008A302E = {
+			isa = PBXGroup;
+			children = (
+				621133091CD8DE70008A302E /* CDSideBarController */,
+				621132F11CD8DB4B008A302E /* DoubanFM */,
+				621132F01CD8DB4B008A302E /* Products */,
+				37D232488DB86DCBE616112A /* Pods */,
+				2A897B89B0CF34E862953298 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		6264A8771CD8B0170047266D /* Products */ = {
+		621132F01CD8DB4B008A302E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6264A8761CD8B0170047266D /* Douban.app */,
+				621132EF1CD8DB4B008A302E /* Douban.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6264A8781CD8B0170047266D /* Douban */ = {
+		621132F11CD8DB4B008A302E /* DoubanFM */ = {
 			isa = PBXGroup;
 			children = (
-				6264A87C1CD8B0170047266D /* AppDelegate.h */,
-				6264A87D1CD8B0170047266D /* AppDelegate.m */,
-				6264A87F1CD8B0170047266D /* ViewController.h */,
-				6264A8801CD8B0170047266D /* ViewController.m */,
-				6264A8821CD8B0170047266D /* Main.storyboard */,
-				6264A8851CD8B0170047266D /* Assets.xcassets */,
-				6264A8871CD8B0170047266D /* LaunchScreen.storyboard */,
-				6264A88A1CD8B0170047266D /* Info.plist */,
-				6264A8791CD8B0170047266D /* Supporting Files */,
+				6211331A1CD8DFF0008A302E /* Controller */,
+				6211331B1CD8DFFA008A302E /* Model */,
+				6211331C1CD8E001008A302E /* View */,
+				621132F21CD8DB4B008A302E /* Supporting Files */,
 			);
+			name = DoubanFM;
 			path = Douban;
 			sourceTree = "<group>";
 		};
-		6264A8791CD8B0170047266D /* Supporting Files */ = {
+		621132F21CD8DB4B008A302E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6264A87A1CD8B0170047266D /* main.m */,
+				621132F31CD8DB4B008A302E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		621133091CD8DE70008A302E /* CDSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CDSideBarController;
+			sourceTree = "<group>";
+		};
+		6211331A1CD8DFF0008A302E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6211331B1CD8DFFA008A302E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6211331C1CD8E001008A302E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				621132F51CD8DB4B008A302E /* AppDelegate.h */,
+				621132F61CD8DB4B008A302E /* AppDelegate.m */,
+				621132F81CD8DB4B008A302E /* ViewController.h */,
+				621132F91CD8DB4B008A302E /* ViewController.m */,
+				621132FB1CD8DB4B008A302E /* Main.storyboard */,
+				621132FE1CD8DB4B008A302E /* Assets.xcassets */,
+				621133001CD8DB4B008A302E /* LaunchScreen.storyboard */,
+				621133031CD8DB4B008A302E /* Info.plist */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6264A8751CD8B0170047266D /* Douban */ = {
+		621132EE1CD8DB4B008A302E /* Douban */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6264A88D1CD8B0170047266D /* Build configuration list for PBXNativeTarget "Douban" */;
+			buildConfigurationList = 621133061CD8DB4B008A302E /* Build configuration list for PBXNativeTarget "Douban" */;
 			buildPhases = (
-				6264A8721CD8B0170047266D /* Sources */,
-				6264A8731CD8B0170047266D /* Frameworks */,
-				6264A8741CD8B0170047266D /* Resources */,
+				89117B73D638C03B6D5B6288 /* 📦 Check Pods Manifest.lock */,
+				621132EB1CD8DB4B008A302E /* Sources */,
+				621132EC1CD8DB4B008A302E /* Frameworks */,
+				621132ED1CD8DB4B008A302E /* Resources */,
+				A05ADFEFF76824E2D7C06857 /* 📦 Embed Pods Frameworks */,
+				8FFB683D046E9CA2DDA4495E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,24 +184,24 @@
 			);
 			name = Douban;
 			productName = Douban;
-			productReference = 6264A8761CD8B0170047266D /* Douban.app */;
+			productReference = 621132EF1CD8DB4B008A302E /* Douban.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6264A86E1CD8B0170047266D /* Project object */ = {
+		621132E71CD8DB4B008A302E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = heyuanwu;
 				TargetAttributes = {
-					6264A8751CD8B0170047266D = {
+					621132EE1CD8DB4B008A302E = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 6264A8711CD8B0170047266D /* Build configuration list for PBXProject "Douban" */;
+			buildConfigurationList = 621132EA1CD8DB4B008A302E /* Build configuration list for PBXProject "Douban" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,55 +209,103 @@
 				en,
 				Base,
 			);
-			mainGroup = 6264A86D1CD8B0170047266D;
-			productRefGroup = 6264A8771CD8B0170047266D /* Products */;
+			mainGroup = 621132E61CD8DB4B008A302E;
+			productRefGroup = 621132F01CD8DB4B008A302E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6264A8751CD8B0170047266D /* Douban */,
+				621132EE1CD8DB4B008A302E /* Douban */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6264A8741CD8B0170047266D /* Resources */ = {
+		621132ED1CD8DB4B008A302E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6264A8891CD8B0170047266D /* LaunchScreen.storyboard in Resources */,
-				6264A8861CD8B0170047266D /* Assets.xcassets in Resources */,
-				6264A8841CD8B0170047266D /* Main.storyboard in Resources */,
+				621133021CD8DB4B008A302E /* LaunchScreen.storyboard in Resources */,
+				621132FF1CD8DB4B008A302E /* Assets.xcassets in Resources */,
+				621132FD1CD8DB4B008A302E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89117B73D638C03B6D5B6288 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFB683D046E9CA2DDA4495E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douban/Pods-Douban-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05ADFEFF76824E2D7C06857 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douban/Pods-Douban-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6264A8721CD8B0170047266D /* Sources */ = {
+		621132EB1CD8DB4B008A302E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6264A8811CD8B0170047266D /* ViewController.m in Sources */,
-				6264A87E1CD8B0170047266D /* AppDelegate.m in Sources */,
-				6264A87B1CD8B0170047266D /* main.m in Sources */,
+				621132FA1CD8DB4B008A302E /* ViewController.m in Sources */,
+				621132F71CD8DB4B008A302E /* AppDelegate.m in Sources */,
+				621132F41CD8DB4B008A302E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6264A8821CD8B0170047266D /* Main.storyboard */ = {
+		621132FB1CD8DB4B008A302E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6264A8831CD8B0170047266D /* Base */,
+				621132FC1CD8DB4B008A302E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6264A8871CD8B0170047266D /* LaunchScreen.storyboard */ = {
+		621133001CD8DB4B008A302E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6264A8881CD8B0170047266D /* Base */,
+				621133011CD8DB4B008A302E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -177,7 +313,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6264A88B1CD8B0170047266D /* Debug */ = {
+		621133041CD8DB4B008A302E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		6264A88C1CD8B0170047266D /* Release */ = {
+		621133051CD8DB4B008A302E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,8 +395,9 @@
 			};
 			name = Release;
 		};
-		6264A88E1CD8B0170047266D /* Debug */ = {
+		621133071CD8DB4B008A302E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A5B00A145102D0B23FA219 /* Pods-Douban.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Douban/Info.plist;
@@ -270,8 +407,9 @@
 			};
 			name = Debug;
 		};
-		6264A88F1CD8B0170047266D /* Release */ = {
+		621133081CD8DB4B008A302E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4F6B03A079B526C5D3AB8B /* Pods-Douban.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Douban/Info.plist;
@@ -284,24 +422,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6264A8711CD8B0170047266D /* Build configuration list for PBXProject "Douban" */ = {
+		621132EA1CD8DB4B008A302E /* Build configuration list for PBXProject "Douban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6264A88B1CD8B0170047266D /* Debug */,
-				6264A88C1CD8B0170047266D /* Release */,
+				621133041CD8DB4B008A302E /* Debug */,
+				621133051CD8DB4B008A302E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6264A88D1CD8B0170047266D /* Build configuration list for PBXNativeTarget "Douban" */ = {
+		621133061CD8DB4B008A302E /* Build configuration list for PBXNativeTarget "Douban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6264A88E1CD8B0170047266D /* Debug */,
-				6264A88F1CD8B0170047266D /* Release */,
+				621133071CD8DB4B008A302E /* Debug */,
+				621133081CD8DB4B008A302E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6264A86E1CD8B0170047266D /* Project object */;
+	rootObject = 621132E71CD8DB4B008A302E /* Project object */;
 }

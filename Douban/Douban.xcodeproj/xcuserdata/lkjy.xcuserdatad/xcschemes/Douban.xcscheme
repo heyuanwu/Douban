@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6264A8751CD8B0170047266D"
+               BlueprintIdentifier = "621132EE1CD8DB4B008A302E"
                BuildableName = "Douban.app"
                BlueprintName = "Douban"
                ReferencedContainer = "container:Douban.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6264A8751CD8B0170047266D"
+            BlueprintIdentifier = "621132EE1CD8DB4B008A302E"
             BuildableName = "Douban.app"
             BlueprintName = "Douban"
             ReferencedContainer = "container:Douban.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6264A8751CD8B0170047266D"
+            BlueprintIdentifier = "621132EE1CD8DB4B008A302E"
             BuildableName = "Douban.app"
             BlueprintName = "Douban"
             ReferencedContainer = "container:Douban.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6264A8751CD8B0170047266D"
+            BlueprintIdentifier = "621132EE1CD8DB4B008A302E"
             BuildableName = "Douban.app"
             BlueprintName = "Douban"
             ReferencedContainer = "container:Douban.xcodeproj">
