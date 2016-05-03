@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"dfsdfsdfdsfdsf");
+    NSLog(@"dfsdfsdfdsfdsf的份儿");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
