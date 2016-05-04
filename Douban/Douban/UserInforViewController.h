@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LoginViewContorllerViewController.h"
+#import "NetworkManager.h"
+#import "AppDelegate.h"
+#import "ProtocolClass.h"
 @interface UserInforViewController : UIViewController
 
 @end
