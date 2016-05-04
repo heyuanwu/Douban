@@ -12,7 +12,7 @@
 
 @end
 
-@implementation LoginViewContorllerViewController
+@implementation LoginViewContorllerViewController : NSObject 
 
 - (void)viewDidLoad {
     [super viewDidLoad];

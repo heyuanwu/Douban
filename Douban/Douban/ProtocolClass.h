@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+@protocol DoubanDelegate<NSObject>
+@optional
+
+@end
 
 @interface ProtocolClass : NSObject
 
