@@ -7,7 +7,7 @@
 //
 
 #import "NetworkManager.h"
-
+#import "AppDelegate.h"
 @implementation NetworkManager
 
 @end
