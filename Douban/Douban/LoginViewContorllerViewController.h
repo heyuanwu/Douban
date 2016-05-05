@@ -13,4 +13,12 @@
 #import "ProtocolClass.h"
 @interface LoginViewContorllerViewController : UIViewController<DoubanDelegate>
 
+
+
+
+
+
+
+
+
 @end
