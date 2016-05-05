@@ -7,16 +7,30 @@
 //
 
 #import "UserInforViewController.h"
-
+#import "CDSideBarController.h"
 @interface UserInforViewController ()
+{
+    NetworkManager* networkmanager;
+    UIStoryboard* mainStoryboard;
+    AppDelegate* appDelegate;
 
+}
 @end
 
 @implementation UserInforViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    mainStoryboard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    appDelegate=[[UIApplication sharedApplication] delegate];
+    //给登陆图片添加手势
+    UITapGestureRecognizer* singleTap=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(loginImageTapped)];
+    [singleTap setNumberOfTapsRequired:1];
+    
+    self.loginImage.userInteractionEnabled=YES;
+    //[self.loginImage ];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +48,6 @@
 }
 */
 
+- (IBAction)logoutButtonTapped:(UIButton *)sender {
+}
 @end
