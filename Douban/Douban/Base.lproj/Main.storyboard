@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Login View Contorller View Controller-->
@@ -116,7 +115,4 @@
             <point key="canvasLocation" x="-36" y="335"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="login" width="300" height="300"/>
-    </resources>
 </document>
