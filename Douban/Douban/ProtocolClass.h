@@ -7,17 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-@protocol DoubanDelegate <NSObject>
+@protocol DoubanDelegate<NSObject>
 @optional
-/**
- *  登陆界面的delegate
- */
-
-
-
 
 @end
-
 
 @interface ProtocolClass : NSObject
 

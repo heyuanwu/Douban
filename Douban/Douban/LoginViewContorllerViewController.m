@@ -7,8 +7,17 @@
 //
 
 #import "LoginViewContorllerViewController.h"
-
+#import "NetworkManager.h"
+#import <UIImageView+AFNetworking.h>
 @interface LoginViewContorllerViewController ()
+{
+    NSMutableString*captchID;
+    NetworkManager*workManage;
+    AppDelegate*appDelegate;
+    
+    
+    
+}
 
 @end
 
@@ -16,7 +25,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    appDelegate=[UIApplication sharedApplication].delegate;
+    workManage=[[NetworkManager alloc]init];
+    workManage.delegate=(id)self;
+    
+    
+    //初始化图片点击事件
+    UITapGestureRecognizer*singTap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(loadCaptchaImage)];
+    
+    [singTap setNumberOfTapsRequired:1];
+
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

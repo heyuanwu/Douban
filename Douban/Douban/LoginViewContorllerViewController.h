@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NetworkManager.h"
+#import <AFNetworking/AFNetworking.h>
+#import "AppDelegate.h"
+#import "ProtocolClass.h"
+@interface LoginViewContorllerViewController : UIViewController<DoubanDelegate>
 
-@interface LoginViewContorllerViewController : UIViewController
+
+
+
+
+
+
+
 
 @end
