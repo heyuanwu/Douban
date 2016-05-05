@@ -11,7 +11,7 @@
 #import <UIImageView+AFNetworking.h>
 @interface LoginViewContorllerViewController ()
 {
-    NSMutableString*captchID;
+    NSMutableString*captchID;//验证码
     NetworkManager*workManage;
     AppDelegate*appDelegate;
     
@@ -33,15 +33,35 @@
     
     
     //初始化图片点击事件
-    UITapGestureRecognizer*singTap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(loadCaptchaImage)];
+    UITapGestureRecognizer*singleTap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(loadCaptchaImage)];//单击
     
-    [singTap setNumberOfTapsRequired:1];
+    [singleTap setNumberOfTapsRequired:1];
+    
+    self.captchaImageView.userInteractionEnabled=YES;
+    
+    [self.captchaImageView addGestureRecognizer:singleTap];//将单击事件添加到验证码图片上
 
     
+    
+}
+-(void)loadCaptchaImage
+{
     
     
     
 }
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+    [self loadCaptchaImage];//加载验证码图片
+    
+    [super viewWillAppear:animated];
+    
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -58,4 +78,22 @@
 }
 */
 
+- (IBAction)submitButtonTapped:(UIButton *)sender
+{
+    
+    
+}
+
+- (IBAction)cancelButtonTapped:(UIButton *)sender
+{
+    
+    
+}
+
+- (IBAction)backgroundTaped:(id)sender
+{
+    
+    
+    
+}
 @end
