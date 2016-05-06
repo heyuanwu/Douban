@@ -29,10 +29,25 @@
     [singleTap setNumberOfTapsRequired:1];
     
     self.loginImage.userInteractionEnabled=YES;
-    //[self.loginImage ];
+    [self.loginImage addGestureRecognizer:singleTap];
+    
+    networkmanager=[[NetworkManager alloc] init];
+    networkmanager.delegate=(id)self;
     
 }
 
+
+
+-(void)loginImageTapped
+{
+
+}
+-(void)setUserInfo
+{
+}
+-(void)logoutSuccess
+{
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
