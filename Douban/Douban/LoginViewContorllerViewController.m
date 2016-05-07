@@ -12,7 +12,7 @@
 @interface LoginViewContorllerViewController ()
 {
     NSMutableString*captchID;//验证码
-    NetworkManager*workManage;
+    NetworkManager*workManager;
     AppDelegate*appDelegate;
     
     
@@ -28,8 +28,8 @@
     
     
     appDelegate=[UIApplication sharedApplication].delegate;
-    workManage=[[NetworkManager alloc]init];
-    workManage.delegate=(id)self;
+    workManager=[[NetworkManager alloc]init];
+    workManager.delegate=(id)self;
     
     
     //初始化图片点击事件
@@ -44,19 +44,39 @@
     
     
 }
+
+//验证码图片点击刷新验证码时间
 -(void)loadCaptchaImage
 {
-    
+    [workManager loadCaptchaImage];
     
     
 }
+
+-(void)loginSuccess//登录成功
+{
+    [_delgate setUserInfo];
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    
+}
+
 
 -(void)viewWillAppear:(BOOL)animated
 {
     
     [self loadCaptchaImage];//加载验证码图片
     
-    [super viewWillAppear:animated];
+    [super viewWillAppear:animated];//消失时，动画
+    
+}
+
+-(void)setCaptchaImageWithURLInString:(NSString*)url//设置验证码图片
+{
+    
+    [self.captchaImageView setImageWithURL:[NSURL URLWithString:url]];
+    
     
 }
 
@@ -68,18 +88,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (IBAction)submitButtonTapped:(UIButton *)sender
-{
+{ NSString*username=_username.text;
+    NSString*password=_password.text;
+    NSString*captcha=_captcha.text;
+    
+    [workManager LoginwithUsername:username Password:password Captcha:captcha RememberOnorOff:@"off"];
+    
+    
+
     
     
 }
@@ -87,12 +106,19 @@
 - (IBAction)cancelButtonTapped:(UIButton *)sender
 {
     
+    [self dismissViewControllerAnimated:YES completion:nil];
     
+ 
 }
 
 - (IBAction)backgroundTaped:(id)sender
 {
+    [_username resignFirstResponder];
+    [_password resignFirstResponder];
+    [_captcha resignFirstResponder];
     
+    
+
     
     
 }

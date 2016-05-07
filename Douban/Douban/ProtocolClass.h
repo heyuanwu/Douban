@@ -9,6 +9,13 @@
 #import <Foundation/Foundation.h>
 @protocol DoubanDelegate<NSObject>
 @optional
+/**
+ *  登录界面delegate
+ */
+-(void)setCaptchaImageWithURLInString:(NSString *)url;
+-(void)loginSuccess;
+-(void)setUserInfo;
+
 
 @end
 
