@@ -38,6 +38,11 @@
 		627A506C1CDA0BF10079CF74 /* DFMHotChanneIsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A506B1CDA0BF10079CF74 /* DFMHotChanneIsEntity.m */; };
 		627A506F1CDA0C200079CF74 /* DFMRecChanneIsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A506E1CDA0C200079CF74 /* DFMRecChanneIsEntity.m */; };
 		D8841F855C38C1A9CFBA1026 /* libPods-Douban.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F0B1A6A5146DFA078077F9 /* libPods-Douban.a */; };
+		EAE568A01CDDCB6100DC3C7A /* LMPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5689F1CDDCB6100DC3C7A /* LMPlayerViewController.m */; };
+		EAE568A21CDDCC0400DC3C7A /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAE568A11CDDCC0400DC3C7A /* baby.mp3 */; };
+		EAE568A61CDDCC4900DC3C7A /* Song.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE568A51CDDCC4900DC3C7A /* Song.plist */; };
+		EAE568A81CDDCD8800DC3C7A /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE568A71CDDCD8800DC3C7A /* AVKit.framework */; };
+		EAE568AA1CDDCD9400DC3C7A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE568A91CDDCD9400DC3C7A /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +99,12 @@
 		9F4F6B03A079B526C5D3AB8B /* Pods-Douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.release.xcconfig"; sourceTree = "<group>"; };
 		B8F0B1A6A5146DFA078077F9 /* libPods-Douban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A5B00A145102D0B23FA219 /* Pods-Douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban/Pods-Douban.debug.xcconfig"; sourceTree = "<group>"; };
+		EAE5689E1CDDCB6100DC3C7A /* LMPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPlayerViewController.h; sourceTree = "<group>"; };
+		EAE5689F1CDDCB6100DC3C7A /* LMPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPlayerViewController.m; sourceTree = "<group>"; };
+		EAE568A11CDDCC0400DC3C7A /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = SOURCE_ROOT; };
+		EAE568A51CDDCC4900DC3C7A /* Song.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Song.plist; sourceTree = "<group>"; };
+		EAE568A71CDDCD8800DC3C7A /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		EAE568A91CDDCD9400DC3C7A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE568AA1CDDCD9400DC3C7A /* AVFoundation.framework in Frameworks */,
+				EAE568A81CDDCD8800DC3C7A /* AVKit.framework in Frameworks */,
 				627A50571CDA08E10079CF74 /* MediaPlayer.framework in Frameworks */,
 				621133191CD8DF7E008A302E /* UIKit.framework in Frameworks */,
 				621133171CD8DF77008A302E /* SystemConfiguration.framework in Frameworks */,
@@ -119,6 +132,8 @@
 		2A897B89B0CF34E862953298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAE568A91CDDCD9400DC3C7A /* AVFoundation.framework */,
+				EAE568A71CDDCD8800DC3C7A /* AVKit.framework */,
 				627A50561CDA08E10079CF74 /* MediaPlayer.framework */,
 				621133181CD8DF7E008A302E /* UIKit.framework */,
 				621133161CD8DF77008A302E /* SystemConfiguration.framework */,
@@ -144,6 +159,7 @@
 		621132E61CD8DB4B008A302E = {
 			isa = PBXGroup;
 			children = (
+				EAE568A11CDDCC0400DC3C7A /* baby.mp3 */,
 				621133091CD8DE70008A302E /* CDSideBarController */,
 				621132F11CD8DB4B008A302E /* DoubanFM */,
 				621132F01CD8DB4B008A302E /* Products */,
@@ -197,6 +213,9 @@
 				627A50411CDA05C30079CF74 /* LoginViewContorllerViewController.h */,
 				627A50421CDA05C30079CF74 /* LoginViewContorllerViewController.m */,
 				627A50441CDA05DD0079CF74 /* PlayerViewController.h */,
+				EAE5689E1CDDCB6100DC3C7A /* LMPlayerViewController.h */,
+				EAE5689F1CDDCB6100DC3C7A /* LMPlayerViewController.m */,
+				EAE568A51CDDCC4900DC3C7A /* Song.plist */,
 				627A50451CDA05DD0079CF74 /* PlayerViewController.m */,
 				627A504D1CDA06A10079CF74 /* SiderbarController.h */,
 				627A504E1CDA06A10079CF74 /* SiderbarController.m */,
@@ -308,9 +327,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE568A21CDDCC0400DC3C7A /* baby.mp3 in Resources */,
 				621133021CD8DB4B008A302E /* LaunchScreen.storyboard in Resources */,
 				621132FF1CD8DB4B008A302E /* Assets.xcassets in Resources */,
 				621132FD1CD8DB4B008A302E /* Main.storyboard in Resources */,
+				EAE568A61CDDCC4900DC3C7A /* Song.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +394,7 @@
 				627A50691CDA0BCB0079CF74 /* DFMUpChanneIsEntity.m in Sources */,
 				627A50601CDA0B270079CF74 /* SongInfo.m in Sources */,
 				627A50461CDA05DD0079CF74 /* PlayerViewController.m in Sources */,
+				EAE568A01CDDCB6100DC3C7A /* LMPlayerViewController.m in Sources */,
 				621132FA1CD8DB4B008A302E /* ViewController.m in Sources */,
 				627A503D1CDA05550079CF74 /* CDSideBarController.m in Sources */,
 				627A50551CDA06EC0079CF74 /* NetworkManager.m in Sources */,
